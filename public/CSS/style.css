@@ -1,0 +1,50 @@
+#Titulo{
+  font-size: 20px; 
+}
+body {
+  background-color: rgba(70, 95, 120, 0.973);
+}
+
+#Ano{
+  font-size: 20px;
+}
+
+#inp_titulo{
+  border-radius: 20px;
+  width: 20vw;
+  height: 4vh;
+  font-size: 15px;
+  text-indent: 12px;
+}
+
+#inp_ano{
+  border-radius: 20px;
+  width: 20vw;
+  height: 4vh;
+  font-size: 15px;
+  text-indent: 12px;
+}
+
+.lista {
+  border-collapse: collapse;
+  background-color: rgb(8, 84, 111);
+}
+
+.cabecalho {
+  background-color: #ddd;
+}
+
+.tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.td {
+  padding: .5em 1em;
+  border: 1px solid #000;
+}
+
+h1 {
+  color: rgb(0, 0, 7);
+  text-align: center
+}
